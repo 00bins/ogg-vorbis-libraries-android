@@ -43,12 +43,8 @@ mkdir -p lib/armeabi-v7a
 mkdir -p lib/x86_64
 mkdir -p lib/arm64-v8a
 mkdir -p lib/x86
-cp ./obj/local/armeabi-v7a/libogg.a ./lib/armeabi-v7a
-cp ./obj/local/armeabi-v7a/libvorbis.a ./lib/armeabi-v7a
-cp ./obj/local/x86_64/libogg.a ./lib/x86_64
-cp ./obj/local/x86_64/libvorbis.a ./lib/x86_64
-cp ./obj/local/arm64-v8a/libogg.a ./lib/arm64-v8a
-cp ./obj/local/arm64-v8a/libvorbis.a ./lib/arm64-v8a
-cp ./obj/local/x86/libogg.a ./lib/x86
-cp ./obj/local/x86/libvorbis.a ./lib/x86
+cp ./obj/local/armeabi-v7a/*.a ./lib/armeabi-v7a
+cp ./obj/local/x86_64/*.a ./lib/x86_64
+cp ./obj/local/arm64-v8a/*.a ./lib/arm64-v8a
+cp ./obj/local/x86/*.a ./lib/x86
 
