@@ -5,7 +5,7 @@
 * For simplicity sake, this code is licensed under the same license as the libvorbis library from (http://xiph.org/vorbis/)
 * This project is highly inspired from https://github.com/MoNTE48/libvorbis-android
 
-This project provides static libogg and libvorbis libraries, and also allows you to compile them on your own, using build.sh.
+This project provides static libogg, libvorbis and libvorbisfile libraries, and also allows you to compile them on your own, using build.sh.
 
 ## Usage
 
